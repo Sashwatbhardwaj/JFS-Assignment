@@ -10,10 +10,10 @@ import java.util.List;
 public class EmployeeService
 {
     private List<Employee> emp = new ArrayList<>(Arrays.asList(
-            new Employee("01","Varun","IT","Sr. Developer","18LPA"),
-            new Employee("02","Lakshay","Analytics","Sr. Analyst","19LPA"),
-            new Employee("03","Ayush","HR","HR Head","20LPA"),
-            new Employee("04","Rajat","Purchase","Purchase Head","25LPA")
+            new Employee("01","SASHWAT","IT","Sr. Developer","18LPA"),
+            new Employee("02","Loki","Analytics","Sr. Analyst","19LPA"),
+            new Employee("03","Amar","HR","HR Head","20LPA"),
+            new Employee("04","Russel","Purchase","Purchase Head","25LPA")
     ));
 
     public List<Employee> getAllEmployees()
