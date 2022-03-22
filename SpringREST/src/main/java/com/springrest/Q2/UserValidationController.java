@@ -11,7 +11,7 @@ public class UserValidationController
     @RequestMapping(value = "/validate/{username}/{password}",method = RequestMethod.GET)
     public String validateUser(@PathVariable String  username, @PathVariable String password)
     {
-        if(username.equals("Varun") && password.equals("Varun@1909"))
+        if(username.equals("SASHWAT") && password.equals("SAS@9755"))
             return "Valid User";
         else
             return "Invalid User";
